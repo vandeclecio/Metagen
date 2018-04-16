@@ -1,0 +1,14 @@
+mapping: sample-metadata.tsv
+input_dir: ~/ncbi/public/sra/
+layout: single
+output: 
+screenConf: fastq_screen.conf
+seqprep: merge
+instrument:
+barcode: 
+otus: close
+refSeq: ../gg_13_5_otus/rep_set/97_otus.fasta
+taxonomy: ../gg_13_5_otus/taxonomy/97_otu_taxonomy.txt
+tree: ../gg_13_5_otus/trees/97_otus.tree
+kaiju: /home/vandeclecio/DATABASES_bkp/kaijudb/
+type_strat: 16S
